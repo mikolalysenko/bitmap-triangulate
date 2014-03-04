@@ -59,7 +59,7 @@ tape("orthogonal triangulation", function(t) {
 
       //Check boundary
       var d = differential(mesh.cells)
-      t.same()
+      t.equals(d.length, nv)
       
       //Compute length of boundary
       var perim_computed = 0.0
