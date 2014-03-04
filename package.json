@@ -1,0 +1,42 @@
+{
+  "name": "bitmap-triangulate",
+  "version": "0.0.0",
+  "description": "Triangulates a bitmap image",
+  "main": "ortho.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "binary-search-bounds": "^0.3.1",
+    "robust-orientation": "^1.0.0"
+  },
+  "devDependencies": {
+    "boundary-cells": "~1.0.0",
+    "contour-2d": "~0.0.0",
+    "differential": "~0.1.1",
+    "euler-characteristic": "~0.0.0",
+    "ndarray-pack": "~1.0.1",
+    "simplicial-complex": "~0.3.3",
+    "tape": "~2.5.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/bitmap-triangulate.git"
+  },
+  "keywords": [
+    "bitmap",
+    "image",
+    "triangulate",
+    "voxel",
+    "mesh"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/bitmap-triangulate/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/bitmap-triangulate"
+}

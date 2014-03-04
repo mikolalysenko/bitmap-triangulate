@@ -24,7 +24,7 @@ npm install bitmap-triangulate
 
 # API
 
-### `require("bitmap-triangulate")(bitmap)
+### `require("bitmap-triangulate")(bitmap)`
 Triangulates a 2D bitmap
 
 * `bitmap` is a 2D ndarray encoding an image
